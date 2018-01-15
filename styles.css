@@ -1,0 +1,207 @@
+body, html {
+	width: 100%;
+	height: 100%;
+	font: 20px Open Sans,Tahoma,Verdana;
+	color: #000000;
+}
+
+@font-face {
+	font-family: "OpenSans-Bold";
+	src: url("../fonts/");
+	url("../fonts/OpenSans-Bold.ttf") format("ttf"),
+	url("../fonts/OpenSans-Bold.woff") format("woff"),
+	url("../fonts/OpenSans-Bold.woff") format("woff2");
+	font-weight: bold;
+	font-style: normal;
+}
+
+.content {
+	width: 100%;
+	height: 100%;
+}
+
+
+.header {
+	width: 100%;
+	height: 100%;
+	background: url("../images/football_1920.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.header-back {
+	width: 100%;
+	height: 100%;
+	background: rgba(10,14,52, 0.9);
+	display: flex;
+	flex-direction: column;
+}
+
+.header-logo {
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 45px;
+}
+
+.header-title {
+	margin: auto 0;
+}
+
+.title-l {
+	font-family: OpenSans, Arial, Tahoma;
+	font-size: 4.5rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+	margin-left: 9.7rem;
+}
+
+.title-r {
+	font-family: OpenSans, Arial, Tahoma;
+	font-size: 4.5rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #ffffff;
+	text-align: right;
+	margin-right: 9.7rem;
+}
+
+.header-btn {
+	margin: 0 auto;
+	margin-bottom: 5rem;
+}
+
+.btn-app {
+	font-family: OpenSans, Arial, Tahoma;
+	font-size: 0.7rem;
+    color: #ffffff;
+	text-transform: uppercase;
+	text-align: left;
+    background: #5e42b0;
+	border: 0;
+    width: 300px;
+    height: 80px;
+    border-radius: 50px;
+	margin-right: 20px;
+   }
+   
+.btn-play {
+	font-family: OpenSans, Arial, Tahoma;
+	font-size: 14px;
+    color: #ffffff;
+	text-transform: uppercase;
+	text-align: left;
+    background: #5e42b0;
+	border: 0;
+    width: 300px;
+    height: 80px;
+    border-radius: 50px;
+	margin-left: 20px;
+   }
+
+.icon {
+	display: inline-block;
+	margin-left: 30px;
+	vertical-align: middle;	
+}
+
+.icon-svg {
+	width: 40px;
+	color: #ffffff;
+}
+
+
+   
+.athlets {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+h1 {
+	color: #e7e7e7;
+	font: bold 80px Open Sans,Tahoma,Verdana;
+	text-transform: uppercase;
+	padding-top:5%;
+}
+
+h2 {
+	color: #c1c1c1;
+	font: bold 36px Open Sans,Tahoma,Verdana;
+	text-transform: uppercase;
+}
+
+sup {
+	color: #000000;
+	font: bold 18px Open Sans,Tahoma,Verdana;
+	padding-bottom: 5px;
+	border-bottom: 5px solid #5e42b0;
+	border-radius: 1px;
+}
+
+.sup {
+	color: #000000;
+	font: bold 18px Open Sans,Tahoma,Verdana;
+	padding-bottom: 5px;
+	border-bottom: 5px solid #ffffff;
+	border-radius: 1px;
+}
+
+.dark {
+	color: #ffffff;
+}
+
+.back-athlets1 {
+	background-color: #ffffff;
+	padding: 1% 10% 1% 55%;
+}
+
+.back-athlets2 {
+	background-color: #f6f4fa;
+	padding: 1% 10% 1% 55%;
+}
+
+.back-athlets3 {
+	background-color: #5e42b0;
+	padding: 1% 10% 5% 55%;
+}
+
+.img-athlets {
+	position: absolute;
+	top: 0px;
+    right: 55%;
+}
+
+.players {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.back-players1 {
+	background-color: #ffffff;
+	padding: 1% 50% 1% 10%;
+}
+
+.back-players2 {
+	background-color: #f5f6f7;
+	padding: 1% 50% 1% 10%;
+}
+
+.back-players3 {
+	background-color: #0a0e34;
+	padding: 1% 50% 2% 10%;
+}
+
+.img-players {
+	position: absolute;
+	top: -9px;
+    left: 40%;
+}
+
+.sup03 {
+	color: #9173e6;
+	font: bold 18px Open Sans,Tahoma,Verdana;
+	padding-bottom: 5px;
+	border-bottom: 5px solid #ffffff;
+	border-radius: 1px;
+}
